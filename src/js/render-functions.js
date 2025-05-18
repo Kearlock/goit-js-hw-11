@@ -1,5 +1,5 @@
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+// import SimpleLightbox from 'simplelightbox';
+// import 'simplelightbox/dist/simple-lightbox.min.css';
 
 // ========================================================================
 // const exampleImage = {
@@ -75,12 +75,12 @@ export function createGallery(images) {
     .join('');
   gallery.insertAdjacentHTML('afterbegin', markup);
 
-  const lightbox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt',
-    captionDelay: 250,
-    overlayOpacity: 0.8,
-  });
-  lightbox.refresh();
+  // const lightbox = new SimpleLightbox('.gallery a', {
+  //   captionsData: 'alt',
+  //   captionDelay: 250,
+  //   overlayOpacity: 0.8,
+  // });
+  // lightbox.refresh();
 }
 // function clearGallery
 export function clearGallery() {
